@@ -17,6 +17,9 @@
   }
 
   .Aboutme > p{
-    margin: 15px;
-    text-align:center;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
   }
