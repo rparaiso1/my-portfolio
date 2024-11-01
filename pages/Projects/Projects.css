@@ -1,0 +1,26 @@
+.projects {
+    padding: 0 8rem;
+    min-height: 80vh;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top:50px;
+  }
+  
+.projects > h2{
+  text-align: center;
+}
+
+  .projects-container {
+    height: 100%
+  }
+
+  @media (max-width: 770px) {
+    .projects {
+      padding: 0 2rem;
+    }
+  }
+
+  
+  

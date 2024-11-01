@@ -1,0 +1,53 @@
+.my-btn {
+    background: none;
+    border: 2px solid var(--divider);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-dark);
+    width: 9rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-radius: 0.3rem;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .my-btn > img {
+    height: 20px;
+    width: 20px;
+    filter: invert(95%);
+  }
+  
+  .my-btn:hover {
+    background-color: var(--highlight);
+  }
+
+
+  .buttons button{
+    margin: 10px;
+    background: none;
+    border: 2px solid var(--divider);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    border-radius: 0.3rem;
+    transition: all 0.5s ease-in-out;
+    height: 100px;
+    width: 90%;
+    color: var(--divider);
+  }
+  
+
+  .buttons>button:hover {
+    background-color: var(--highlight);
+  }
+
+
+  .my-btn{
+    height: 80px;
+    width: 150px;
+  }
+
